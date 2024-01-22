@@ -1,0 +1,74 @@
+{{ define "body_classes" }}couse-subsection-default-single{{ end }}
+
+{{ define "main" }}
+<div class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="main-content card rounded-0 bg-white shadow-sm">
+          <div class="card-header">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb m-0">
+                {{range .Ancestors.Reverse}}
+                <li class="breadcrumb-item small"><a class="link-danger" href="{{.RelPermalink}}">{{.Title}}</a></li>
+                {{end}}
+              </ol>
+            </nav>
+          </div>
+          <div class="card-body">
+            <h1 class="display-3 mb-4">{{ .Title }}</h1>
+            <hr>
+            <p class="m-0 small">
+              <span>📅 {{.Date.Format "02 Jan'06"}}</span>
+              <span class="mx-2">&bull;</span>
+              <span>⏳ {{.ReadingTime}} min read</span>
+            </p>
+            <hr>
+            <div class="content">
+              {{ .Content }}
+            </div>
+            <hr>
+            <h6>Contributed By:</h6>
+            <ul>
+              {{range .Params.authors}}
+              <li><a class="link-danger" href="mailto:{{.url}}" target="_blank">{{.name}}</a></li>
+              {{end}}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card rounded-0 shadow-sm mb-4">
+          <div class="card-header">
+            <span class="fw-bold text-uppercase text-secondary">{{.CurrentSection.Title}} Lectures</span>
+          </div>
+          <div class="card-body p-lg-4 d-flex flex-column">
+            {{ range $index, $pages := .CurrentSection.Pages -}}
+            {{if eq $index 0}}
+            <a class="link-danger text-decoration-none fw-bold" href="{{ .RelPermalink }}">&rarr; {{ .LinkTitle
+              }}</a>
+            {{else}}
+            <hr class="my-1">
+            <a class="link-danger text-decoration-none fw-bold" href="{{ .RelPermalink }}">&rarr; {{ .LinkTitle
+              }}</a>
+            {{end}}
+            {{- end }}
+          </div>
+        </div>
+        <div class="card rounded-0 shadow-sm mb-4">
+          <div class="card-header">
+            <span class="fw-bold text-uppercase text-secondary">All Courses</span>
+          </div>
+          <div class="card-body p-lg-4 d-flex align-items-center gap-2 flex-wrap">
+            {{ with .Site.GetPage "section" "courses" }}
+            {{range .Sections}}
+            <a href="{{.RelPermalink}}" class="btn btn-sm btn-dark">{{.Title}}</a>
+            {{end}}
+            {{end}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

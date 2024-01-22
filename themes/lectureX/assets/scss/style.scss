@@ -1,0 +1,27 @@
+$body-bg: #ebe7e7;
+$mainContent-padding-vertical: 50px;
+$mainContent-padding-horizontal: 100px;
+
+body {
+  background-color: $body-bg;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+// Post Default Single
+.page-default-single,
+.couse-subsection-default-single {
+  .main-content {
+    .card-header {
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+
+    .card-body {
+      padding: 60px 100px;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+}

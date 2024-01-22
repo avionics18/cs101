@@ -1,0 +1,68 @@
+{{ define "body_classes" }}page-default-single{{ end }}
+
+{{ define "main" }}
+<div class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="main-content card rounded-0 border-0 bg-white shadow-sm">
+          <div class="card-body">
+            <h1 class="display-3 mb-4">{{ .Title }}</h1>
+            <hr>
+            <p class="m-0 small">
+              <span>📅 {{.Date.Format "02 Jan'06"}}</span>
+              <span class="mx-2">&bull;</span>
+              <span>⏳ {{.ReadingTime}} min read</span>
+              <span class="mx-2">&bull;</span>
+              <span>
+                🏷️ {{range $index, $item := .Params.Categories}}
+                {{if ne $index 0}},{{end}}
+                <a class="link-danger" href="/categories/{{$item | urlize}}">{{$item}}</a>
+                {{end}}
+              </span>
+            </p>
+            <hr>
+            <div class="content">
+              {{ .Content }}
+            </div>
+            <hr>
+            <h6>Contributed By:</h6>
+            <ul>
+              {{range .Params.authors}}
+              <li><a class="link-danger" href="mailto:{{.url}}" target="_blank">{{.name}}</a></li>
+              {{end}}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card rounded-0 shadow-sm mb-4">
+          <div class="card-header">
+            <span class="fw-bold text-uppercase text-secondary">Categories</span>
+          </div>
+          <div class="card-body p-lg-4 d-flex align-items-center gap-2 flex-wrap">
+            {{ range $taxonomy, $posts := .Site.Taxonomies.categories }}
+            {{ $taxonomyTitle := replace $taxonomy "-" " " | title }}
+            <a href="/categories/{{$taxonomy}}/" class="btn btn-sm btn-dark">{{ $taxonomyTitle }}
+              <sup><b>{{
+                  $posts.Len }}</b></sup></a>
+            {{ end }}
+          </div>
+        </div>
+        <div class="card rounded-0 shadow-sm mb-4">
+          <div class="card-header">
+            <span class="fw-bold text-uppercase text-secondary">Tags</span>
+          </div>
+          <div class="card-body p-lg-4 d-flex align-items-center gap-2 flex-wrap">
+            {{ range $taxonomy, $posts := .Site.Taxonomies.tags }}
+            {{ $taxonomyTitle := replace $taxonomy "-" " " | title }}
+            <a href="/tags/{{$taxonomy}}/" class="btn btn-sm btn-dark">{{ $taxonomyTitle }} <sup><b>{{
+                  $posts.Len }}</b></sup></a>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

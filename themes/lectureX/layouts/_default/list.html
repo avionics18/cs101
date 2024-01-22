@@ -1,0 +1,43 @@
+{{ define "body_classes" }}page-default-list{{ end }}
+
+{{ define "main" }}
+<div class="py-5">
+  <div class="container">
+    <h1 class="title display-2 pb-4 border-bottom border-secondary mb-4">{{ .Title }}</h1>
+    <div class="content">
+      {{ .Content }}
+    </div>
+
+    <div class="row mt-4">
+      {{ range .Pages }}
+      <div class="col-lg-4 col-md-6">
+        <div class="card rounded-0 border-0 shadow-sm mt-3">
+          <div class="card-body">
+            <p class="card-subtitle small text-secondary border-bottom pb-3 mb-2">
+              <span>{{ .Date.Format "02 Jan 2006" }}</span>
+              <span> &bull; </span>
+              {{ range $i, $author := .Params.authors }}
+              {{ if eq $i 0 }}
+              <span>
+                <a class="link-danger" href="{{ $author.url }}" target="_blank">{{ $author.name }}</a>
+              </span>
+              {{ else }}
+              <span>
+                , <a class="link-danger" href="{{ $author.url }}" target="_blank">{{ $author.name }}</a>
+              </span>
+              {{ end }}
+              {{ end }}
+              <span></span>
+            </p>
+            <h3 class="card-title m-0">
+              <a class="link-danger text-decoration-none" href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h3>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+
+  </div>
+</div>
+{{ end }}

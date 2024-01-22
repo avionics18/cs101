@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on CS101</title>
+    <link>http://example.org/blog/</link>
+    <description>Recent content in Blog on CS101</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Jan 2024 15:30:13 +0530</lastBuildDate><atom:link href="http://example.org/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to CS101</title>
+      <link>http://example.org/blog/introduction-to-cs101/</link>
+      <pubDate>Fri, 19 Jan 2024 15:32:51 +0530</pubDate>
+      
+      <guid>http://example.org/blog/introduction-to-cs101/</guid>
+      <description>Welcome to CS101! This site was primarily built for beginners to get started with Computer Science fundamentals. Here, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum nulla molestias voluptas perferendis dolor suscipit quis odio maxime obcaecati iusto saepe placeat reiciendis laborum recusandae, excepturi quos, ut eius esse.
+Introduction Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint illum similique doloribus a delectus ipsam, nihil vitae consequuntur, tenetur, necessitatibus natus inventore, sunt assumenda aspernatur odio voluptatum expedita.</description>
+    </item>
+    
+  </channel>
+</rss>

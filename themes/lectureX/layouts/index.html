@@ -1,0 +1,14 @@
+{{ define "title" }}{{ .Site.Title }}{{ end}}
+{{ define "body_classes" }}page-home{{ end }}
+
+{{ define "main" }}
+<div class="py-5">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    <hr>
+    <div class="content">
+      {{ .Content }}
+    </div>
+  </div>
+</div>
+{{ end }}
