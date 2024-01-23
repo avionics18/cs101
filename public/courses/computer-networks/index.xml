@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Networks on CS101</title>
+    <link>http://example.org/courses/computer-networks/</link>
+    <description>Recent content in Computer Networks on CS101</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Jan 2024 14:56:35 +0530</lastBuildDate><atom:link href="http://example.org/courses/computer-networks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>L01 - Introduction to Computer Networks</title>
+      <link>http://example.org/courses/computer-networks/l01-introduction-to-computer-networks/</link>
+      <pubDate>Mon, 22 Jan 2024 14:57:39 +0530</pubDate>
+      
+      <guid>http://example.org/courses/computer-networks/l01-introduction-to-computer-networks/</guid>
+      <description>A computer network is a set of computers sharing resources located on or provided by network nodes. Computers use common communication protocols over digital interconnections to communicate with each other. These interconnections are made up of telecommunication network technologies based on physically wired, optical, and wireless radio-frequency methods that may be arranged in a variety of network topologies.
+Syllabus Lecture Topic Marks (Weightage) 01 Introduction to Computer Networks 0-2 02 Classful &amp;amp; Classless Addressing 0-2 03 IPv4 &amp;amp; IPv6 Addressing 2 04 OSI Model 4 05 TCP/IP Model 2 The nodes of a computer network can include personal computers, servers, networking hardware, or other specialized or general-purpose hosts.</description>
+    </item>
+    
+  </channel>
+</rss>

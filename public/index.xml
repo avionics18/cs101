@@ -8,6 +8,47 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 19 Jan 2024 15:35:50 +0530</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Contact</title>
+      <link>http://example.org/contact/</link>
+      <pubDate>Mon, 22 Jan 2024 19:11:04 +0530</pubDate>
+      
+      <guid>http://example.org/contact/</guid>
+      <description>Want to contact me? Decode my email address with PowerShell:
+JwBtAGkAawBlAGYAcgBvAGIAYgBpAG4AcwBAAGcAbQBhAGkAbAAuAGMAbwBtACcA If you&amp;rsquo;re looking for assistance with PowerShell, see the forums on PowerShell.org.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Mon, 22 Jan 2024 19:10:58 +0530</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description>Mike F. Robbins, a former Microsoft MVP, is the lead technical writer for Azure PowerShell at Microsoft. With extensive experience in PowerShell, he is a scripting, automation, and efficiency expert. As a lifelong learner, Mike continuously strives to improve his skills and empower others by sharing his knowledge and experience. He is also a published author, having written several books, including:
+Author of PowerShell 101: The No-Nonsense Guide to Windows PowerShell Creator of The PowerShell Conference Book Co-author of Windows PowerShell TFM 4th Edition Contributing author in the PowerShell Deep Dives book When Mike&amp;rsquo;s not writing documentation for Microsoft, he can be found sharing his thoughts and insights on his blog at mikefrobbins.</description>
+    </item>
+    
+    <item>
+      <title>L01 - Introduction to Digital Logic</title>
+      <link>http://example.org/courses/digital-logic/l01-introduction-to-digital-logic/</link>
+      <pubDate>Mon, 22 Jan 2024 14:59:48 +0530</pubDate>
+      
+      <guid>http://example.org/courses/digital-logic/l01-introduction-to-digital-logic/</guid>
+      <description>Introduction. Digital, or boolean, logic is the fundamental concept underpinning all modern computer systems. Put simply, it&amp;rsquo;s the system of rules that allow us to make extremely complicated decisions based on relatively simple &amp;ldquo;yes/no&amp;rdquo; questions.
+Syllabus
+L01 - Introduction to Digital Logic L02 - Logic Gates &amp;amp; Boolean Algebra L03 - K-Maps L04 - Combinational Circuits L05 - Sequential Circuits Digital electronics Digital electronics is a field of electronics involving the study of digital signals and the engineering of devices that use or produce them.</description>
+    </item>
+    
+    <item>
+      <title>L01 - Introduction to Computer Networks</title>
+      <link>http://example.org/courses/computer-networks/l01-introduction-to-computer-networks/</link>
+      <pubDate>Mon, 22 Jan 2024 14:57:39 +0530</pubDate>
+      
+      <guid>http://example.org/courses/computer-networks/l01-introduction-to-computer-networks/</guid>
+      <description>A computer network is a set of computers sharing resources located on or provided by network nodes. Computers use common communication protocols over digital interconnections to communicate with each other. These interconnections are made up of telecommunication network technologies based on physically wired, optical, and wireless radio-frequency methods that may be arranged in a variety of network topologies.
+Syllabus Lecture Topic Marks (Weightage) 01 Introduction to Computer Networks 0-2 02 Classful &amp;amp; Classless Addressing 0-2 03 IPv4 &amp;amp; IPv6 Addressing 2 04 OSI Model 4 05 TCP/IP Model 2 The nodes of a computer network can include personal computers, servers, networking hardware, or other specialized or general-purpose hosts.</description>
+    </item>
+    
+    <item>
       <title>Introduction to CS101</title>
       <link>http://example.org/blog/introduction-to-cs101/</link>
       <pubDate>Fri, 19 Jan 2024 15:32:51 +0530</pubDate>

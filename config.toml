@@ -2,4 +2,6 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'CS101'
 theme = 'lectureX'
+enableEmoji = true
+disableHugoGeneratorInject=true
 

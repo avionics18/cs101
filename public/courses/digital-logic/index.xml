@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Logic on CS101</title>
+    <link>http://example.org/courses/digital-logic/</link>
+    <description>Recent content in Digital Logic on CS101</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Jan 2024 14:59:33 +0530</lastBuildDate><atom:link href="http://example.org/courses/digital-logic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>L01 - Introduction to Digital Logic</title>
+      <link>http://example.org/courses/digital-logic/l01-introduction-to-digital-logic/</link>
+      <pubDate>Mon, 22 Jan 2024 14:59:48 +0530</pubDate>
+      
+      <guid>http://example.org/courses/digital-logic/l01-introduction-to-digital-logic/</guid>
+      <description>Introduction. Digital, or boolean, logic is the fundamental concept underpinning all modern computer systems. Put simply, it&amp;rsquo;s the system of rules that allow us to make extremely complicated decisions based on relatively simple &amp;ldquo;yes/no&amp;rdquo; questions.
+Syllabus
+L01 - Introduction to Digital Logic L02 - Logic Gates &amp;amp; Boolean Algebra L03 - K-Maps L04 - Combinational Circuits L05 - Sequential Circuits Digital electronics Digital electronics is a field of electronics involving the study of digital signals and the engineering of devices that use or produce them.</description>
+    </item>
+    
+  </channel>
+</rss>

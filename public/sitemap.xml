@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://example.org/contact/</loc>
+    <lastmod>2024-01-22T19:11:04+05:30</lastmod>
+  </url><url>
+    <loc>http://example.org/about/</loc>
+    <lastmod>2024-01-22T19:10:58+05:30</lastmod>
+  </url><url>
+    <loc>http://example.org/courses/digital-logic/l01-introduction-to-digital-logic/</loc>
+    <lastmod>2024-01-22T14:59:48+05:30</lastmod>
+  </url><url>
+    <loc>http://example.org/courses/digital-logic/</loc>
+    <lastmod>2024-01-22T14:59:33+05:30</lastmod>
+  </url><url>
+    <loc>http://example.org/courses/computer-networks/l01-introduction-to-computer-networks/</loc>
+    <lastmod>2024-01-22T14:57:39+05:30</lastmod>
+  </url><url>
+    <loc>http://example.org/courses/computer-networks/</loc>
+    <lastmod>2024-01-22T14:56:35+05:30</lastmod>
+  </url><url>
+    <loc>http://example.org/courses/</loc>
+    <lastmod>2024-01-22T14:55:56+05:30</lastmod>
+  </url><url>
     <loc>http://example.org/</loc>
     <lastmod>2024-01-19T15:35:50+05:30</lastmod>
   </url><url>
